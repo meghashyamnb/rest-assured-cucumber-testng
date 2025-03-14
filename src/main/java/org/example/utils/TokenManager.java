@@ -5,8 +5,8 @@ import static io.restassured.RestAssured.given;
 
 public class TokenManager {
 
-    private static String clientId = "a2a2483e48084ce7bdaf366316a7cebf";
-    private static String clientSecret = "5a7677031fdb4a768ed111db93a4140c";
+    private static String clientId = "";
+    private static String clientSecret = "";
     private static String token;
 
     public static String getToken() {
